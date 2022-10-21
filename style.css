@@ -1,14 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&family=Ropa+Sans:ital@0;1&display=swap');
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 nav{
     
-
-    background-color:white;
+position: relative;
+top: 90px;
+    background-color:#9CD9C2;
     padding: 4px 4px;
     display: flex;
     align-items: center;
@@ -16,6 +18,7 @@ nav{
 }
 
 nav ul{
+    top: 700px;
     display: flex;
     align-items: center;
     list-style: none;
@@ -37,13 +40,14 @@ nav li a{
 nav li a:hover{
     background-color: #A0EEC8;
     
-    color: white;
+    color: black;
 }
 
 
 .banner{
     height: 100vh;
-    background: #DFDFDF;
+    top: 200px;
+    background:#F6F9FF;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -66,27 +70,30 @@ height: 90px;
         transition: 0.3s;
 
 }
-#headerinicial >img{
-    position: relative;
-    width: 991px;
-height: 90px;
-    padding: 4px 4px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    text-decoration: none;
-        font-size: 18px;
-        font-weight: 200;
-        border-radius: 5px;
-        transition: 0.3s;
 
-         
-    }
+    #headerinicial >img{
+        position: absolute;
+        width: 998px;
+    height: 90px;
+    top: 10px;
+top: auto;
+        padding: 4px 4px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        text-decoration: none;
+            font-size: 18px;
+            font-weight: 200;
+            border-radius: 5px;
+            transition: 0.3s;
+    
+             
+        }
 #logo >img{
     position: absolute;
     width: 120px;
     height: 60px;
-    left: 900px;
+    left: 290px;
     top: 15px;
          
     }
@@ -94,29 +101,31 @@ height: 90px;
         position: absolute;
         width: 30px;
         height: 25px;
-        left: 1700px;
+        left: 1100px;
         top: 17px;
              
         }
 
 .container >img {
 position: absolute;
-width: 300px;
+width: 400px;
 height: 400px;
 padding: 8px 15px;
 top: 200px;
-right: 800px;
-left: 1130px;
+right: 750px;
+left: 500px;
  font-size: 18px;
  font-weight: 200;
 padding: 8px 15px;
  border-radius: 5px;
   
 }
-.container2 >img{
+.container2 {
+    background-color: white;
     position:absolute;
     width: 992px;
     height: 400px;
+    right: 200px;
     top: 1135px;
     right: 895.9px;
      font-size: 18px;
@@ -127,12 +136,18 @@ padding: 8px 15px;
       
     }
 
+.botoes {
+    position: absolute;
+    top: 620px;
+    left: 710px;
+}
+
 .título{
 position: absolute;
 width: 700px;
-height: 90.4px;
-right: 600px;
-top:170px;
+height: 50px;
+left: 860px;
+top: 196px;
 font-family: 'Asul';
 font-style: normal;
 font-weight: 700;
@@ -141,7 +156,7 @@ line-height: 36px;
 display: flex;
 align-items: center;
 text-transform: uppercase;
-color: #000000;
+color:black;
 transform: matrix(1, 0, 0, 1, 0, 0);
 }
 .sinopse{
@@ -149,7 +164,7 @@ position: absolute;
 width: 400px;
 height: 300px;
 top: 270px;
-right: 920px;
+right: 260px;
 font-family: 'Asul';
 font-style: normal;
 font-weight: 200;
@@ -162,14 +177,13 @@ align-items: center;
 .visualisador1 >img{
     position: absolute;
     width: 180px;
-    height: 200px;
+    height: 210px;
     padding: 8px 15px;
     top: 200px;
-    left: 950px;;
+    left: 350px;;
     right: 800px;
      font-size: 18px;
      font-weight: 200;
-    padding: 8px 15px;
      border-radius: 5px;
          
 
@@ -177,15 +191,149 @@ align-items: center;
 .visualisador2 >img{
     position: absolute;
     width: 200px;
-    height: 180px;
+    height: 200px;
     padding: 8px 15px;
     top: 420px;
-    left: 945px;;
+    left: 350px;;
     right: 800px;
      font-size: 18px;
      font-weight: 200;
-    padding: 8px 15px;
      border-radius: 5px;
+}
+
+/*comecei aqui -->*/
+
+.columninformation {
+    position: absolute;
+    width: 993px;
+    height: 110px;
+    top: 761px;
+    left: 262px;
+    font-family: 'Asul';
+    font-style: normal;
+    font-weight: 70;
+    font-size: 17px;
+    border-top: 1px solid black;
+    display: inline-block;
+    display: flex;
+    justify-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.columninformation1 {
+    position: absolute;
+    width: 1000px;
+    height: 110px;
+    top: 800px;
+    left: 262px;
+    font-family: 'Asul';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17px;
+    display: inline-block;
+    display: flex;
+    justify-items: center;
+    flex-direction: row;
+    justify-content: space-between;  
+}
+
+.columnauthor {
+    position: absolute;
+    width: 700px;
+    height: 100px;
+    top: 950px;
+    left: 400px;
+    border-top: 1px solid black;
+    font-family: 'Asul';
+    font-style: normal;
+    font-weight: 70;
+    font-size: 17px;
+    display: flex;
+    justify-items: normal;
+    flex-direction: row;
+}
+
+
+.columnauthor2 {
+    position: absolute;
+    width: 1000px;
+    height: 200px;
+    top: 1100px;
+    left: 250px;
+    font-family: 'Asul';
+    font-style: normal;
+    font-weight: 70;
+    font-size: 17px;
+    color: white;
+    background-color: #286152;
+    
+
+}
+
+.columnauthor3 {
+    position: absolute;
+    width: 1000px;
+    height: 200px;
+    top: 1200px;
+    right: 5px;
+    font-family: 'Asul';
+    font-style: normal;
+
+}
+
+/*terminei aqui*/
+
+
+.mulheres >img{
+    position: absolute;
+    width: 250px;
+    height: 300px;
+    padding: 8px 15px;
+    top:400px;
+    left: 1px;;
+    right: 300px;
+     font-size: 23px;
+     font-weight: 300;
+     border-radius: 5px;
+}
+.revolucaodosbichos >img{
+    position: absolute;
+    width: 250px;
+    height: 300px;
+    padding: 8px 15px;
+    top:400px;
+    left: 300px;;
+    right: 300px;
+     font-size: 18px;
+     font-weight: 200;
+     border-radius: 5px;
+}
+.osmiseraveis >img{
+    position: absolute;
+    width: 250px;
+    height: 300px;
+    padding: 8px 15px;
+    top:400px;
+    left: 550px;;
+    right: 300px;
+     font-size: 18px;
+     font-weight: 200;
+     border-radius: 5px;
+}
+
+.arrumesuacama >img{
+    position: absolute;
+    width: 250px;
+    height: 300px;
+    padding: 8px 15px;
+    top:400px;
+    left: 800px;;
+    right: 300px;
+     font-size: 18px;
+     font-weight: 200;
+     border-radius: 5px;
+     
 }
 
 .texto .botoes button{
@@ -198,15 +346,15 @@ align-items: center;
     font-weight: 500;
     padding: 0 10px;
     outline: none;
-    color:black;
+    color:white;
     background-color: #4EC16E;
 }
 footer{
     position: absolute;
-width: 992px;
+width: 1120px;
 height: 150px;
-left: 896px;
-top: 1520px;
+left: 200px;
+top: 1900px;
 background: #9CD9C2;
 margin: 0;
 padding: 0;
@@ -225,7 +373,7 @@ display: block;
     font-weight: 90px;
     height: 300px;
 top: 20px;
-right: 20px;
+left: 300px;
 font-family: 'Asul';
 font-style: normal;
 line-height: 27px;
@@ -272,8 +420,8 @@ text-decoration: none;
             position: absolute;
             width: 20px;
             height: 10px;
-            left: 80px;
-            top: 10px;
+            right: 20px;
+            bottom: 60px;
             }    
 
 .columndisclaimer > img {
@@ -294,7 +442,7 @@ text-decoration: none;
     font-weight: 100px;
     height: 300px;
 top: 7px;
-right: 600px;
+right: 150px;
 font-family: 'Asul';
 font-style: normal;
 line-height: 27px;
@@ -315,5 +463,3 @@ line-height: 27px;
       max-width: 992px;
     }
   }
-  
- 
