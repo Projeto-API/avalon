@@ -69,8 +69,8 @@ header {
 
 .login nav ul a {
     font-size: 1.2rem;
-    font-style: ;
-}
+    font-style: a}
+
 
 .navegacao {
     padding: .7rem;
@@ -159,9 +159,10 @@ header * nav li a {
     font-size: 18px;
     font-weight: 200;
     border-radius: 5px;
-    transition: 0.3s; */
+    transition: 0.3s; 
+}*/
 
-}
+
 
 */ #icon>img {
     position: absolute;
