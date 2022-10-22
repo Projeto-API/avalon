@@ -104,12 +104,17 @@ header {
 }
 
 .navegacao nav li a:hover {
-    transform: scale(.9);
-    opacity: .9;
+    background-color: #4EC16E;
+    transform: scale(1.1);
     transition-property: all;
-    transition-duration: 0.2s;
+    transition-duration: 0.1s;
 }
 
+.login nav li a:hover {
+    transform: scale(1.1);
+    transition-property: all;
+    transition-duration: 0.1s;
+}
 
 #perfil {
     display: flex;
