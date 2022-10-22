@@ -2,101 +2,102 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&family=Ropa+Sans:ital@0;1&display=swap');
 
 html{
-    font-size: 90%;
+    font-size: 12px;
 }
-*{
+body *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     
 }
+body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+
+}
 
 nav{
-position: relative;
-top: 90px;
     background-color:#9CD9C2;
-    padding: 4px 4px;
+    padding: 0.5rem;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    font-size: 1.5rem;
 }
 
 nav ul{
-    top: 13rem;
-    width: 70vw;
+    position: relative;
+    width: 100%;
     display: flex;
     align-items: center;
     list-style: none;
+    left: 20%;
+    gap: 1rem;
+    flex-flow: row wrap;
+  top: 2rem;
+}
 
-}
-nav li{
-    margin-left: 7px;
-}
 nav li a{
     text-decoration: none;
     color:black;
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 700;
-font-size: 100%;
-line-height: 1rem;
-padding: 2rem 2rem 2rem 2rem;
+font-size: 90%;
+
+
 
 }
 nav li a:hover{
     background-color: #A0EEC8;
-    
     color: black;
 }
 
-
-.layout{
-    width: 70vw;
-    height: 80vh;
-    background:#F6F9FF;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 .header >img{
 position: absolute;
 width: 70vw;
 height: 80vh;
 
 }
+header{
+    background-color: #9CD9C2;
+    display: flex;
+    width: 100%;
+    padding: 2rem;
+    flex-direction: column;
+   border-bottom: 0.2rem solid gray;
+}
 
-    #headerinicial >img{
-        position: absolute;
-        width: 70vw;
-    height: 10vh;
-        align-items: center;
-        text-decoration: none;
-            font-weight: 200;
-             
-        }
-#logo >img{
-    position: absolute;
-    width: 120px;
-    height: 60px;
-    left: 690px;
-    top: 15px;
-         
+#logo {
+display: flex;
+width: 100%;
+justify-content: space-between;
+align-items: center;
+border-bottom: 0.2rem solid gray;
+}
+  #logotipo {
+    width: 10rem;
+  }
+
+  main{
+    background: #F6F9FF;
+    width: 996px;
+    height:600px;
+  }
+    .icone {
+        width: 3rem;
+        height: 3rem;
+
     }
-    #icon >img{
-        position: absolute;
-        width: 30px;
-        height: 25px;
-        left: 1500px;
-        top: 17px;
-             
-        }
 
 .capaprincipal >img {
     position: absolute;
-    width: 17%;
+    width: 11%;
     padding: 0;
-    top: 13rem;
-    left: 60rem;
+    top: 17rem;
+    left: 65rem;
      font-weight: 200;
      border-radius: 1.5rem;
   
@@ -104,10 +105,10 @@ height: 80vh;
 
 .título{
 position: absolute;
-width: 100%;
-left: 60%;
-top:13rem;
-font-weight: 800;
+width: 19%;
+left: 49%;
+top:22rem;
+font-weight: 900;
 font-family: 'Poppins';
 font-size: 1.5rem;
 align-items: center;
@@ -115,72 +116,103 @@ display: flex;
 color: #000000;
 }
 .autor{
-    position: absolute;
+position: absolute;
 width: 23vw;
 height: 12vh;
 font-family: 'Poppins';
 font-style: normal;
-font-weight: 700;
 font-size: 1rem;
-top: 15rem;
+top: 24rem;
 color: grey;
-text-transform: uppercase;
-left: 97rem;
+left: 95rem;
 }
 .sinopse{
 position: absolute;
-width: 32vw;
-height: 20vh;
-left: 60%;
-top: 20rem;
+width: 20vw;
+height: 14vh;
+left: 49%;
+top: 28rem;
 font-family: 'Poppins';
-font-weight: 700;
-font-size: 1.5rem;
+font-size: 1rem;
 align-items: center;
-transform: matrix(1, 0, 0, 1, 0, 0);
 
 }
 .capaemily >img{
     position: absolute;
-    width: 5%;
+    width: 3%;
     padding: 0;
-    top: 16rem;
-    left: 50rem;
+    top: 21rem;
+    left: 57rem;
      font-weight: 200;
      
 }
 .capa >img{
     position: absolute;
     position: absolute;
-    width: 5%;
+    width: 3%;
     padding: 0;
-    top: 29rem;
-    left: 50rem;
+    top: 30rem;
+    left: 57rem;
      font-weight: 200;
 }
 
 .capaverso >img{
     position: absolute;
-    width: 5%;
+    width: 3%;
     padding: 0;
-    top: 42rem;
-    left: 50rem;
+    top: 39rem;
+    left: 57rem;
      font-weight: 200;
 }
 
 
 .texto .botoes button{
     position: absolute;
-width: 10vw;
-height: 6vh;
+    width: 12rem;
+    height: 4rem;
 top: 46rem;
 left: 110rem;
-font-size: 150%;
+font-size: 20px;
+font-weight: 800px;
 font-family: 'Poppins';
 color:white;
 background: #4EC16E;
-border-radius: 25px;
+border-radius: 10px;
 }
+
+span{
+    position: absolute;
+width: 20%;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 800;
+font-size: 26px;
+line-height: 52px;
+top: 43rem;
+left: 95rem;
+color: red;
+
+}
+
+
+#quantidade  {
+position: absolute;
+width: 5rem;
+height: 3rem;
+top: 48rem;
+left: 96rem;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 800;
+font-size: 23px;
+background: #9CD9C2;
+border-radius: 10px;
+align-items: center;
+justify-content: center;
+color: #000000;
+text-align: center;
+}
+
 footer{
     position: absolute;
 width: 1120px;
@@ -195,54 +227,17 @@ display: block;
 
 
 }
-.columninstitucional {
-    position: absolute;
-    display: inline-block;
-    align-items: flex-start;
-    justify-content: flex-start;
-    width: 200px;
-    font-size: 8px;
-    font-weight: 90px;
-    height: 300px;
-top: 20px;
-right: 20px;
-font-family: 'Asul';
-font-style: normal;
-line-height: 27px;
-
-
-}
-.columnpagamento  {
-    position: absolute;
-    display: inline-block;
-    align-items: flex-start;
-    justify-content: flex-start;
-    width: 300px;
-    font-size: 8px;
-    font-weight: 90px;
-    height: 200px;
-top: 20px;
-right: 300px;
-font-family: 'poppins';
-font-style: normal;
-text-decoration: none;
-}
-
-
-.mobile-menu{
-    display: none;
-}
 @media (min-width: 768px) {
     body {
       max-width: 768px;
       margin: 0 auto;
     }
   }
- 
+  
+  
   @media (min-width: 992px) {
     body {
       max-width: 992px;
     }
   }
   
- 
