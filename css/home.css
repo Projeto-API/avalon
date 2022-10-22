@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Ropa+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+#banner {
+    padding-top: 6.8rem;
+    width: 100vw;
+    /* max-width: 100%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.big3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.big3>div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.big3 .big3-icons {
+    align-items: center;
+    display: flex;
+    position: relative;
+}
+
+
+.big3 * a {
+    font-weight: bold;
+    font-size: 1rem;
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.big3 .big3-icons * img {
+    width: 33vw;
+    align-items: center;
+    display: flex;
+    position: relative;
+    z-index: 1;
+    filter: brightness(70%);
+
+}
+
+.big3-icons:hover {
+    width: 33vw;
+    transform: scale(.95);
+    opacity: .9;
+    transition-property: all;
+    transition-duration: 0.2s;
+
+}
