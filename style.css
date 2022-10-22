@@ -55,12 +55,6 @@ nav li a:hover{
     color: black;
 }
 
-.header >img{
-position: absolute;
-width: 70vw;
-height: 80vh;
-
-}
 header{
     background-color: #9CD9C2;
     display: flex;
@@ -148,7 +142,6 @@ align-items: center;
 }
 .capa >img{
     position: absolute;
-    position: absolute;
     width: 3%;
     padding: 0;
     top: 30rem;
@@ -179,17 +172,35 @@ color:white;
 background: #4EC16E;
 border-radius: 10px;
 }
+#cima >img{
+width: 4rem;
+height: 2rem;
+border-radius: 8px;
+padding: 0rem;
+top: 40px;
+left: 30px;
+position: relative;
 
+}
+#baixo >img{
+    width: 4rem;
+    height: 2rem;
+    border-radius: 8px;
+    padding: 0rem;
+    top: 400px;
+    left: 30px;
+    position: relative;
+    
+    }
 span{
-    position: absolute;
+    position: relative;
+    top: 24rem;
 width: 20%;
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 800;
 font-size: 26px;
-line-height: 52px;
-top: 43rem;
-left: 95rem;
+margin-inline-start: 500px;
 color: red;
 
 }
