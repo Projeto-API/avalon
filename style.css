@@ -10,7 +10,6 @@ header * {
 
 header {
     width: 100%;
-    position: fixed;
     background-color: #9CD9C2;
 
 }
@@ -127,31 +126,22 @@ html{
 
 }
 
-
 .capaprincipal >img {
-margin-left: 20rem;
+
 height:40vh ;
-margin-top: 10rem;
     width: 12vw;
     padding: 1rem;
      border-radius: 1.5rem;
+     
   
 }
 
 .título{
-margin-left: 45rem;
-margin-top: -50rem;
-display: flex;
-width: 100vw;
-height: 70vh;
-justify-content: space-between;
+
+text-align: center;
 color: #000000;
 }
 .autor{
-margin-left: 46rem;
-width: 100vw;
-height: 70vh;
-margin-top: -62.5rem;
 font-family: 'Poppins';
 font-style: normal;
 font-size: 1rem;
@@ -159,28 +149,34 @@ color: grey;
 
 }
 .sinopse{
-    margin-left: 46rem;
+ 
     width: 30vw;
     height: 20vh;
-    margin-top: -60rem;
+  text-align: center;
     font-family: 'Poppins';
     font-size: 150%;
     display: flex;
-    text-align: justify;
+ 
+    }
+
+    #fotoslivros{
+        display: flex;
+    }
+    .selecaoaside{
+        display: flex;
+        flex-direction: column;
     }
 .capaemily >img{
   
     width: 5vw;
-  margin-top: -90rem;
-    margin-left:10rem ;
+ 
     padding: 0;
      
 }
 .capa >img{
     width: 5vw;
     padding: 0;
-    margin-top: -25rem;
-    margin-left: 10rem
+  
    
 }
 
@@ -188,16 +184,14 @@ color: grey;
   
     width: 5%;
     padding: 0;
-    top: 42rem;
-margin-left: 49px;
+    
+
      font-weight: 200;
 }
 
 
 .texto .botoes button{
-    margin-left: -400px;
-    width: 150px;
-    height: 50px;
+
 font-size: 20px;
 font-weight: 800px;
 font-family: 'Poppins';
@@ -205,29 +199,9 @@ color:white;
 background: #4EC16E;
 border-radius: 10px;
 }
-#cima >img{
-    position: absolute;
-    width: 34px;
-    margin-left:150px ;
-    padding: 0;
-    top: 12rem;
-}
-#baixo >img{
-    position: absolute;
-    width: 34px;
-    margin-left:98px ;
-    padding: 0;
-    top: 57rem;
-    
-    }
+
 span{
-width: 250px;
-height: 200px;
-margin-top: -100px;
-margin-left: 640px;
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 800;
+font-weight: 700;
 font-size: 36px;
 color: red;
 
@@ -238,8 +212,6 @@ color: red;
 
 width: 100px;
 height: 50px;
-margin-left: 750px;
-margin-top: 100px;
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 800;
@@ -293,7 +265,7 @@ text-align: center;
     display: flex;
     flex-direction: column;
     gap: 1.8rem;
-    margin-bottom: 1.9rem;
+
     font-size: 30px;
     width: 100%;
     
@@ -366,7 +338,7 @@ section > div .item{
     width: 100%;
     display: flex;
     height: 350px;
-    margin-top: 90px;
+   
 }
 
 .item {
@@ -386,7 +358,7 @@ section > div .item{
 }
 
 .item h3 {
-    margin: 8px;
+  
     text-transform: uppercase;
     font-size: 20px;
     font-weight: 900;
@@ -404,7 +376,6 @@ section > div .item{
     height: 4rem;
     border-radius: 50rem;
     border: none;
-    margin-top: 95px;
     background-color: #4EC16E;
     
 }
@@ -415,7 +386,7 @@ section > div .item{
     height: 4rem;
     border-radius: 50rem;
     border: none;
-    margin-top: 95px;
+
     background-color: #4EC16E;
     
 
