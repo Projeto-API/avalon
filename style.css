@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Ropa+Sans&display=swap');
 
-footer *,
+
 header * {
     margin: 0;
     padding: 0;
@@ -14,11 +14,14 @@ header {
     background-color: #9CD9C2;
 
 }
+html{
+    width: 100%;
+}
 
 #logo {
     display: flex;
     justify-content: center;
-    width: 4rem;
+    width: 6rem;
 
 
 }
@@ -126,29 +129,29 @@ header {
 
 
 .capaprincipal >img {
-margin-left: 300px;
-height:20% ;
-margin-top: 9%;
-    width: 12%;
+margin-left: 20rem;
+height:40vh ;
+margin-top: 10rem;
+    width: 12vw;
     padding: 1rem;
-     font-weight: 200;
      border-radius: 1.5rem;
   
 }
 
 .título{
-margin-left: 680px;
-margin-top: -550px;
-width: 700px;
-height: 600px;
+margin-left: 45rem;
+margin-top: -50rem;
+display: flex;
+width: 100vw;
+height: 70vh;
 justify-content: space-between;
 color: #000000;
 }
 .autor{
-margin-left: 710px;
-width: 200px;
-height: 100px;
-margin-top: -590px;
+margin-left: 46rem;
+width: 100vw;
+height: 70vh;
+margin-top: -62.5rem;
 font-family: 'Poppins';
 font-style: normal;
 font-size: 1rem;
@@ -156,34 +159,33 @@ color: grey;
 
 }
 .sinopse{
-    margin-left: 690px;
-    width: 700px;
-    height: 300px;
-    margin-top: -80px;
+    margin-left: 46rem;
+    width: 30vw;
+    height: 20vh;
+    margin-top: -60rem;
     font-family: 'Poppins';
     font-size: 150%;
-    align-items: center;
-    
+    display: flex;
+    text-align: justify;
     }
 .capaemily >img{
-    position: absolute;
-    width: 5%;
-    margin-left:45px ;
+  
+    width: 5vw;
+  margin-top: -90rem;
+    margin-left:10rem ;
     padding: 0;
-    top: 16rem;
-     font-weight: 200;
+     
 }
 .capa >img{
-    position: absolute;
-    width: 5%;
+    width: 5vw;
     padding: 0;
-    top: 29rem;
-    margin-left: 45px;
-     font-weight: 200;
+    margin-top: -25rem;
+    margin-left: 10rem
+   
 }
 
 .capaverso >img{
-    position: absolute;
+  
     width: 5%;
     padding: 0;
     top: 42rem;
@@ -193,7 +195,7 @@ margin-left: 49px;
 
 
 .texto .botoes button{
-    margin-left: 1000px;
+    margin-left: -400px;
     width: 150px;
     height: 50px;
 font-size: 20px;
@@ -206,9 +208,9 @@ border-radius: 10px;
 #cima >img{
     position: absolute;
     width: 34px;
-    margin-left:98px ;
+    margin-left:150px ;
     padding: 0;
-    top: 11rem;
+    top: 12rem;
 }
 #baixo >img{
     position: absolute;
@@ -221,12 +223,12 @@ border-radius: 10px;
 span{
 width: 250px;
 height: 200px;
-margin-top: -300px;
-margin-left: -400px;
+margin-top: -100px;
+margin-left: 640px;
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 800;
-font-size: 26px;
+font-size: 36px;
 color: red;
 
 }
@@ -270,6 +272,10 @@ text-align: center;
 
  .columninformation > div p:last-child {
     font-weight: 600;
+    width: 100%;
+    font-size: 21px;
+
+
  }
 
  .author {
@@ -278,6 +284,8 @@ text-align: center;
     display: flex;
     gap: 4rem;
     align-items: center;
+    font-size: 30px;
+    width: 100%;
     
  }
 
@@ -286,11 +294,13 @@ text-align: center;
     flex-direction: column;
     gap: 1.8rem;
     margin-bottom: 1.9rem;
+    font-size: 30px;
+    width: 100%;
     
 }
 
  .author > div:last-child p:first-child {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 
  }
 
@@ -305,7 +315,7 @@ text-align: center;
     font-family: 'Asul';
     font-style: normal;
     font-weight: 70;
-    font-size: 17px;
+    font-size: 34px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -328,19 +338,10 @@ text-align: center;
     
     font-family: 'Asul';
     font-style: normal;
-    font-weight: 70;
-    font-size: 17px;
+    font-weight: 700;
+    font-size: px;
+    width: 100%;
     color: white;
-    
-    
-
-}
-
-.columnauthor3 {
-    
-    font-family: 'Asul';
-    font-style: normal;
-
 }
 section > div .item{
 
@@ -356,7 +357,8 @@ section > div .item{
     display: flex;
     flex-direction: column;
     width: 100%;
-    max-width: 90rem;
+    max-width:100% ;
+ 
 }
 
 .container {
@@ -364,7 +366,7 @@ section > div .item{
     width: 100%;
     display: flex;
     height: 350px;
-    margin-top: 60px;
+    margin-top: 90px;
 }
 
 .item {
@@ -376,8 +378,8 @@ section > div .item{
 
 .item img {
     border-radius: 8px;
-    width: 10rem;
-    height: 220px;
+    width: 11rem;
+    height: 200px;
     object-fit: cover;
     display: flex;
 
@@ -386,12 +388,12 @@ section > div .item{
 .item h3 {
     margin: 8px;
     text-transform: uppercase;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 900;
 }
 
 .item span {
-    font-size: 14px;
+    font-size: 20px;
     font-style: italic;
     color: rgba(0, 0, 0, 0.7);
 }
@@ -474,7 +476,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 13vw;
+    width: 8vw;
     max-width: 100%;
     /* background-color: #4EC16E; */
 
