@@ -12,25 +12,52 @@ main{
     font-size: 35px;
     width: 990px;
     height: 620px;
+    text-align: justify;
+
+   
 }
 .autor{
     font-size: 20px;
     color: gray;
+    margin: 0;
+    margin-top: 0.5rem;
 
 }
     
   .capaprincipal >img{
      display: flex;
-    
+    justify-content: space-between;
+  margin: 2rem;
+  margin-top: 7.8rem;
+  
     }
-    
-    .selecaodecapas >img{
-
- justify-content: space-around;
- 
-
+    .secondsection{
+        margin: 11rem;
     }
+  .imagensdolivro{
+    display: inline-block;
+    margin: 1rem;
+  
+  }
 
+  .containera>img{
+    margin: 4rem;
+   align-items: center;
+   margin-top: 0.2rem;
+  }
+  .containere>img{
+    margin: 4rem;
+   align-items: center;
+  }
+  .containerb>img{
+    width: 180px;
+  }
+  .containerc>img{
+    width: 180px;
+  }
+  .containerd>img{
+    width: 180px;
+  }
     span{
       
 display: flex;
@@ -43,12 +70,13 @@ justify-content: left;
     }
     
     .botoes >button{
-        
+       margin: 3rem; 
+       margin-left: 18rem;
+       align-items: center;
         color: white;
         background: #4EC16E;
         font-weight: 800;
         font-size: 25px;
-text-align: center;
    width: 180px;
    height: 40px;
    border-radius: 1rem;
@@ -60,6 +88,8 @@ text-align: center;
         font-weight: 700;
         width: 90px;
         height: 40px;
+        margin: 1rem;
+        
     }
     
     
