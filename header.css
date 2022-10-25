@@ -159,7 +159,6 @@ div.navegacao ul {
 }
 
 .big3-icons:hover {
-    width: 33vw;
     transform: scale(.95);
     opacity: .9;
     transition-property: all;
