@@ -8,22 +8,24 @@ section > div .item{
 
 }
 
+
 .carrossel {
     width: 100%;    
     display: flex;
     flex-direction: column;
+    justify-items: center;
 }
 
-.container {
 
-    width: 100%;
+.container {
     display: flex;
-    height: 350px;
+    width: 100%;
     margin-top: 60px;
 }
 
 .item {
-  
+    display: flex;
+    width: 100%;
     flex-direction: column;
     align-items: center;
  
@@ -31,9 +33,10 @@ section > div .item{
 }
 
 .item img {
+    display: flex;
+    width: 80%;
+    height: 20rem;
     border-radius: 8px;
-    width: 10rem;
-    height: 220px;
     object-fit: cover;
     display: flex;
 
@@ -56,7 +59,7 @@ section > div .item{
     display: flex;
     align-items: center;
    
-    width: 4rem;
+    width: 10rem;
     height: 4rem;
     border-radius: 50rem;
     border: none;

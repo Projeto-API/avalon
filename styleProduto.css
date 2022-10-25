@@ -60,12 +60,15 @@ main{
     
 }
 .menu_categoria{
-    width: 7rem;
+
+
+    width: 15rem;
     
         
 }
 
 aside{
+    display: flex;
     width: 100%;
     padding-left: 2rem;
     padding-right: 6rem;
@@ -123,7 +126,7 @@ section .gallery{
     display: flex;
     flex-direction: column;
     border: 1px solid #fff;
-    width: 10rem;
+    width: 12rem;
     justify-items: center;
     align-items: center;
     background-size: auto;
