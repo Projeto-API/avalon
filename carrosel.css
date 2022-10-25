@@ -17,10 +17,13 @@ section > div .item{
 }
 
 
-.container {
+.container{
     display: flex;
-    width: 100%;
     margin-top: 60px;
+    width: 100%;
+    justify-content: space-between;
+
+    align-items: center;
 }
 
 .item {

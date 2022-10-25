@@ -30,8 +30,9 @@ footer {
 }
 
 .container-footer {
-    padding: 1rem 2rem;
+    
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
     align-items: flex-start;
     justify-content: space-around;
@@ -123,6 +124,7 @@ footer {
 
 .autores {
     padding: 1rem 5rem;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-around;
