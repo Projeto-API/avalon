@@ -23,19 +23,22 @@ main{
     margin-top: 0.5rem;
 
 }
+.capaprincipal{
+    margin-top: 13rem;
+    margin-left:  -13rem;
+}
     
   .capaprincipal >img{
      display: flex;
     justify-content: space-between;
-  margin: 2rem;
-  margin-left: -6rem;
-  margin-top: 9rem;
-width: 600px;
-height: 960px;
+    margin: 2rem;
+    max-width: 100rem;
+    min-height: 50rem;
   
     }
     .secondsection{
-        margin: 11rem;
+        margin: 1rem;
+        margin-top: 19rem;
     }
   .imagensdolivro{
     display: inline-block;
@@ -215,5 +218,86 @@ justify-content: left;
         justify-content: center;
     
     }
+    .carrossel {
     
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width:100% ;
+     
+    }
     
+    .container {
+    
+        width: 100%;
+        display: flex;
+        height: 350px;
+       
+    }
+    
+    .item {
+      
+        flex-direction: column;
+        align-items: center;
+            
+    }
+    
+    .item img {
+        border-radius: 8px;
+        width: 11rem;
+        height: 200px;
+        object-fit: cover;
+        display: flex;
+    
+    }
+    
+    .item h3 {
+      
+        text-transform: uppercase;
+        font-size: 20px;
+        font-weight: 900;
+    }
+    
+    .item span {
+        font-size: 20px;
+        font-style: italic;
+        color: rgba(0, 0, 0, 0.7);
+    }
+    
+    .botao1 {
+       
+        width: 4rem;
+        height: 4rem;
+        border-radius: 50rem;
+        border: none;
+        background-color: #4EC16E;
+        
+    }
+    
+    .botao2 {
+        
+        width: 4rem;
+        height: 4rem;
+        border-radius: 50rem;
+        border: none;
+    
+        background-color: #4EC16E;
+        
+    
+    }
+    
+    .botao1 img{
+        width: 3rem;
+        height: 3rem;
+        border-radius: 12px;
+        border: none;
+        rotate: 180deg;
+        justify-items: center;
+    }
+    
+    .botao2 img{
+        width: 3rem;
+        height: 3rem;
+        border-radius: 12px;
+        border: none;
+    }
