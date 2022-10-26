@@ -23,19 +23,22 @@ main{
     margin-top: 0.5rem;
 
 }
+.capaprincipal{
+    margin-top: 13rem;
+    margin-left:  -13rem;
+}
     
   .capaprincipal >img{
      display: flex;
     justify-content: space-between;
-  margin: 2rem;
-  margin-left: -6rem;
-  margin-top: 9rem;
-width: 600px;
-height: 960px;
+    margin: 2rem;
+    max-width: 100rem;
+    min-height: 50rem;
   
     }
     .secondsection{
-        margin: 11rem;
+        margin: 1rem;
+        margin-top: 19rem;
     }
   .imagensdolivro{
     display: inline-block;
