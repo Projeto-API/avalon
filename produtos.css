@@ -1,5 +1,21 @@
+body{
+    width: 100vw;
+
+}
+
 main{
     display: flex;
+    flex-flow: row nowrap;
+    gap: 4rem;
+    padding-right: 4rem;
+}
+
+main > div:first-child{
+    max-height: 100%;
+    display: flex;
+    margin-top: 4rem;
+    gap: 1rem;
+    
 }
 
 .título{
@@ -10,7 +26,7 @@ main{
 .sinopse{
     display: flex;
     font-size: 35px;
-    width: 990px;
+    width: 100%;
     height: 620px;
     text-align: justify;
 
@@ -29,19 +45,19 @@ main{
 }
     
   .capaprincipal >img{
-     display: flex;
-    justify-content: space-between;
     margin: 2rem;
     max-width: 100rem;
     min-height: 50rem;
   
     }
     .secondsection{
+        display: flex;
+        flex-direction: column;
         margin: 1rem;
         margin-top: 19rem;
     }
   .imagensdolivro{
-    display: inline-block;
+    
     margin: 11rem;
     margin-top: 5rem;
   
@@ -85,9 +101,13 @@ justify-content: left;
 
     }
     
-    .botoes >button{
-       margin: -2rem; 
-      margin-left: 12rem;
+    .quantidades{
+        display: flex;
+        gap: 8rem;
+        align-items: center;
+        margin-top: 5rem;
+    }
+    .quantidades >button{
         color: white;
         background: #4EC16E;
         font-weight: 800;
@@ -105,6 +125,7 @@ justify-content: left;
         height: 40px;
         margin: 1rem;
      text-align: center;
+     border-radius: 1rem;
         
     }
     
@@ -112,7 +133,8 @@ justify-content: left;
     
     .columninformation {
 
-        border: 1px solid black;
+        border-bottom: 1px solid black;
+        border-top: 1px solid black;
         padding: 1rem 2rem;
         font-style: normal;
         font-weight: 70;
@@ -121,7 +143,6 @@ justify-content: left;
         justify-items: center;
         flex-direction: row;
         justify-content: space-between;
-    
     }
     
      .columninformation > div  {
