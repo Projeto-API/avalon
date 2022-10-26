@@ -33,23 +33,23 @@
                 </div>
                 <div>
                     <button id="lupa">
-                        <svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor"
-                            class="bi bi-search" viewBox="0 0 20 20">
-                            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                        <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-search" viewBox="-2 -2 20 20">
+                            <path
+                                d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
                         </svg>
                     </button>
                 </div>
 
                 <div>
                     <button id="login">
-                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" class="bi bi-person-fill" viewBox="0 0 20 20">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-person-fill" viewBox="-2 -2 20 20">
                             <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
                         </svg>
                     </button>
                 </div>
                 <div>
                     <button id="car-shopping">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-cart" viewBox="0 0 20 20">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-cart" viewBox="-2 -2 20 20">
                             <path
                                 d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
                         </svg>
@@ -117,11 +117,12 @@
 
 
     <footer>
-        <section class="container-footer">
-            <div >
-                <img id="logo2" src="img/logopreto.png" alt="">
+        <section class="footer">
+            <section class="container-footer">
+                <div class="column">
+                <img id="logo2" src="img/logopreto.png" alt=""></div>
 
-                <div class="columninstitucional">
+                <div class="column">
                     <section>
                         <h5>Privacidade e Termos</h5><br>
                     </section>
@@ -134,7 +135,7 @@
                     </section>
                 </div>
 
-                <div class="columnsite">
+                <div class="column">
                     <section>
                         <h5>Mapa do Site</h5><br>
                     </section>
@@ -149,26 +150,15 @@
                     </section>
                 </div>
 
-                <div class="columnpagamento">
+                <div class="column">
                     <section>
                         <h5>Formas de pagamento</h5><br>
                     </section>
-                    <section class="cartoes1">
-                        <ul type=none class="cartoes1">
-                            <li><img id="visa" src="img/visa 2.png" alt=""></li>
-                            <li><img id="elo" src="img/elo-logo-1-1 1.png" alt=""></li>
-                            <li><img id="master" src="img/mastercard 1.png" alt=""></li>
-                        </ul>
-                    </section>
-                    <section class="cartoes2">
-                        <ul type=none class="cartoes2">
-                            </li><img id="american" src="/img/american 1.png" alt=""></li>
-                            </li><img id="hiper" src="/img/hipercard-logo 1.png" alt=""></li>
-                            </li><img id="boleto" src="img/boleto 1.png" alt=""></li>
-                            <ul>
+                    <section class="cards">
+                        <a href=""><img id="cards" src="/img/cards.png" alt=""></a>
                     </section>
                 </div>
-                <div class="redes">
+                <div class="column" id="redes-sociais">
                     <section>
                         <h5>Redes Sociais</h5><br>
                     </section>
@@ -181,8 +171,8 @@
                         </nav>
                     </section>
                 </div>
-            </div>
-            <div class="autores">
+            </section>
+            <section class="autores">
                 <nav>
                     <ul type="none">
                         <p>Desenvolvido por</p>
@@ -193,7 +183,7 @@
                         <li> <a href="#"> Paloma</a> </li>
                     </ul>
                 </nav>
-            </div>
+            </section>
             <section>
     </footer>
 </body>

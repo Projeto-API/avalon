@@ -71,10 +71,13 @@ button {
     display: none;
 }
 
-svg {
+#lupa {
+    display: flex;
+}
 
+svg {
     height: 7vw;
-    max-height: 3rem;
+    max-height: 2.5rem;
     width: auto;
 }
 
@@ -85,7 +88,7 @@ svg {
 
 
 .navegacao {
-    letter-spacing: .1rem;
+    letter-spacing: .05rem;
     align-items: center;
     padding: 0 5%;
     display: inline-block;
@@ -111,7 +114,7 @@ svg {
     text-decoration: none;
     padding: .8rem 1rem;
     color: black;
-    font-size: clamp(.7rem, 2vw, .8rem);
+    font-size: clamp(.7rem, 2.5vw, .8rem);
     /* font-size: .8rem; */
     white-space: nowrap;
 }
@@ -120,9 +123,55 @@ svg {
     display: none;
 }
 
+
+#logo2 {
+    display: none;
+}
+
 .footer {
     display: flex;
+    background-color: #9CD9C2;
+    font-size: .9rem;
+    flex-direction: column;
+    border-radius: 5vw 5vw 0 0 ;
 }
+
+.container-footer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.container-footer div {
+    padding: 1.5rem 3vw;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+#cards {
+    height: 10vw;
+    max-height: 3rem;
+    background-color: transparent;
+}
+
+
+.autores * ul {
+    padding: 1rem;
+    gap: 1rem;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    box-shadow: 0 .01rem .4rem .01rem #949494;
+}
+
+
 
 /* #logo {
     display: flex;
@@ -293,12 +342,34 @@ footer {
         display: none;
     }
 
-       .lista ul {
+    .lista ul {
         height: auto;
         width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+
+    #logo2 {
+        display: block;
+        align-items: center;
+        height: 5rem;
+    }
+
+
+}
+
+@media (max-width: 768px) {
+    .autores * ul {
+        padding: 1rem;
+        gap: 1rem;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        flex-direction: column;
+        box-shadow: 0 .01rem .4rem .01rem #949494;
     }
 
 }
