@@ -124,12 +124,11 @@ footer {
 
 .autores {
     padding: 1rem 5rem;
-    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-around;
     font-size: .8rem;
-    font-style: i;
+    
 }
 
 .autores>nav ul {
