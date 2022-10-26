@@ -13,6 +13,9 @@ header * {
     color: black;
 }
 
+/* HEADER */
+
+
 header {
     position: fixed;
     max-width: 100%;
@@ -83,11 +86,10 @@ button {
 }
 
 svg {
-    height: 7vw;
+    height: 6vw;
     max-height: 2.5rem;
     width: auto;
 }
-
 
 #search {
     display: none;
@@ -132,6 +134,7 @@ svg {
     display: none;
 }
 
+/* FOOTER */
 
 #logo2 {
     display: none;
@@ -180,13 +183,14 @@ svg {
     justify-content: space-around;
 }
 
-.autores * ul {
+.autores  ul {
     padding: 1rem;
     gap: 1rem;
     height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 
@@ -222,7 +226,7 @@ svg {
         display: none;
     }
 
-  
+
 
     .lista {
         width: 100%;
@@ -237,21 +241,16 @@ svg {
         height: 5rem;
     }
 
-
-}
-
-@media (max-width: 768px) {
-    .autores * ul {
-        padding: 1rem;
-        gap: 1rem;
+    .autores ul {
         height: auto;
         display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-    }
+        flex-direction: row;
+             }
+
 
 }
+
+
 
 @media (min-width: 1200px) {
 

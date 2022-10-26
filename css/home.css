@@ -11,6 +11,8 @@
     height: auto;
 }
 
+/* SECTION 1 - BANNER + 3 CATEGORAS  */
+
 #banner {
     padding-top: 65px;
     height: 100%;
@@ -68,11 +70,14 @@ main {
 
 .big3-icons:hover {
     width: 33vw;
+    filter: brightness(150%);
     transform: scale(.95);
-    opacity: .9;
     transition-property: all;
     transition-duration: 0.1s;
 }
+
+
+/* SECTION 1 - DESTAQUES  */
 
 .destaque {
     flex-direction: column;
@@ -107,6 +112,9 @@ main {
     width: auto;
 }
 
+
+/*  CARROSEIS  */
+
 .continue-vendo,
 .lançamento {
     padding: 4vw 5vw;
@@ -131,16 +139,15 @@ main {
     list-style: none;
 }
 
-.gallery li>div {
+.gallery * div {
     padding-top: 5%;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 10rem;
+    justify-items: center;
+    min-width: 3rem;
+    max-width: 10rem;
     text-align: center;
 }
-
 
 
 .item {
@@ -149,6 +156,8 @@ main {
     border-radius: 5%;
     align-items: center;
 }
+
+/* BOTOES - ARROW LEFT E RIGHT */
 
 .arrow-left {
     top: 0;
@@ -193,10 +202,15 @@ main {
     transition-duration: 200ms;
 }
 
-.grid {position: relative;}
+/* BOTAO COMPRAR */
+
+.grid {
+    position: relative;
+}
+
 #destaque-comprar {
     width: 6rem;
-    height: 1.5;
+    height: 1.5rem;
     font-size: .8rem;
     top: 0;
     right: 15vw;
@@ -204,6 +218,11 @@ main {
 }
 
 
+.item:hover {
+    filter: brightness(60%);
+    transition-property: all;
+    transition-duration: 0.2s;
+}
 
 @media (min-width: 768px) {
     body {
@@ -239,6 +258,8 @@ main {
         width: auto;
         filter: drop-shadow(1rem 1rem 2rem black);
     }
+
+    /* BOTAO COMPRAR */
 
     #destaque-comprar {
         width: 9rem;
@@ -288,8 +309,13 @@ main {
         position: relative;
         width: 100%;
     }
-    
-    .grid {position: relative;}
+
+    /* BOTAO COMPRAR */
+
+    .grid {
+        position: relative;
+    }
+
     #destaque-comprar {
         top: 1rem;
         right: 2rem;
@@ -298,5 +324,3 @@ main {
         position: absolute;
     }
 }
-
-
