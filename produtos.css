@@ -39,7 +39,7 @@ height: 960px;
     }
   .imagensdolivro{
     display: inline-block;
-    margin: 11rem;
+    margin: 6rem;
     margin-top: 5rem;
   
   }
@@ -206,9 +206,8 @@ justify-content: left;
         font-style: normal;
     
     }
-    
     section > div .item{
-    
+
         display: flex;
         width: 100%;
         flex-wrap: wrap;
@@ -297,4 +296,43 @@ justify-content: left;
         height: 3rem;
         border-radius: 12px;
         border: none;
+    }
+    section > div .item{
+
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+    
+    }
+    
+    
+    .carrossel {
+        width: 100%;    
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+    }
+    
+    
+    .container{
+        display: flex;
+        margin-top: 60px;
+        width: 100%;
+        justify-content: space-between;
+    
+        align-items: center;
+    }
+    
+    .item {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+     
+            
+    }
+    
+    .item img {
+        display: flex;
     }
