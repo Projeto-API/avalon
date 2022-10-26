@@ -98,7 +98,7 @@ svg {
     background-color: #9CD9C2;
     word-wrap: break-word;
     overflow-x: auto;
-    /* overflow: ; */
+    overflow: hidden;
     box-shadow: 0 .01rem .4rem .01rem #949494;
 }
 
@@ -109,16 +109,22 @@ svg {
     align-items: center;
 }
 
+
+
 .lista li a {
     align-items: center;
     text-decoration: none;
     padding: .8rem 1rem;
     color: black;
     font-size: clamp(.6rem, 1vw, .8rem);
-    /* font-size: .8rem; */
     white-space: nowrap;
 }
 
+.lista li a:hover {
+    background-color: #386C5F;
+    border-radius: 25%;
+    color: white;
+}
 .conta {
     display: none;
 }
