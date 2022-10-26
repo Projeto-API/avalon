@@ -45,6 +45,13 @@ header {
     justify-content: center;
 }
 
+.icons div:hover {
+    transform: scale(1.1);
+    transition-property: all;
+    transition-duration: 0.2s;
+
+}
+
 .icons div {
     padding: 10%;
 }
@@ -93,22 +100,18 @@ svg {
     padding: 0 5%;
     display: inline-block;
     height: 25px;
-    max-height: 2rem;
     width: 100%;
     background-color: #9CD9C2;
     word-wrap: break-word;
     overflow-x: auto;
-    overflow: hidden;
     box-shadow: 0 .01rem .4rem .01rem #949494;
 }
 
-.navegacao ul {
-    width: 100%;
+.navegacao nav ul {
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
-
 
 
 .lista li a {
@@ -116,15 +119,15 @@ svg {
     text-decoration: none;
     padding: .8rem 1rem;
     color: black;
-    font-size: clamp(.6rem, 1vw, .8rem);
+    font-size: clamp(.6rem, 50%, .8rem);
     white-space: nowrap;
 }
 
 .lista li a:hover {
-    background-color: #386C5F;
-    border-radius: 25%;
+    background-color: #4EC16E;
     color: white;
 }
+
 .conta {
     display: none;
 }
@@ -151,7 +154,6 @@ svg {
 
 .container-footer div {
     padding: 1.5rem 3vw;
-    display: flex;
     align-items: flex-start;
     justify-content: space-around;
     flex-direction: column;
@@ -159,11 +161,17 @@ svg {
 }
 
 
+
 #cards {
     height: 10vw;
     max-height: 3rem;
     background-color: transparent;
 }
+
+#redes-sociais * a {
+    padding: 0 5px;
+}
+
 
 .autores {
     box-shadow: 0 .01rem .4rem .01rem #949494;
@@ -195,9 +203,6 @@ svg {
         height: 50px;
     }
 
-    .navegacao {
-        height: 30px;
-    }
 
     #search {
         display: flex;
@@ -218,7 +223,6 @@ svg {
     }
 
     .lista ul {
-        height: auto;
         width: 100%;
         display: flex;
         justify-content: center;
@@ -256,10 +260,13 @@ svg {
     }
 
     svg {
-        height: vw;
-        max-height: 100%;
+        max-height: 6vh;
         width: auto;
     }
 
+    .navegacao ul {
+        width: 1200px;
+        display: flex;
+    }
 
 }
