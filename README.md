@@ -15,11 +15,10 @@ Confecção do modelo das paginas no Figma e replicando no HTML e CSS.
 
 Front end
 * HTML / * CSS /* JS <br/>
-<p align="center">
 ![image](https://user-images.githubusercontent.com/54208910/198088706-dc9712e3-acd6-4cd6-82d0-43b33ac0ef6a.png)
 ![image](https://user-images.githubusercontent.com/54208910/198088802-a0149141-68fe-44f4-a63e-49e19d25bb38.png)
 ![image](https://user-images.githubusercontent.com/54208910/198088867-75a5a498-b63f-4b4a-9661-f3cdbf956f1b.png)
-</p>
+
 
 https://www.figma.com/file/SJba8AvpGQiCgs9KWIvZDl/Projeto-Integrador---Livraria?node-id=300%3A321 - Layout (Home, Produto Interna, Login, Cadastro)<br/>
 https://www.figma.com/file/TY5l0G323vePPaFmoctdAZ/PI-Projeto-DH?node-id=47%3A10 - Layout(Listagem de Produtos)
