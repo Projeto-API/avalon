@@ -1,3 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
 body{
     width: 100vw;
 
@@ -127,8 +134,14 @@ justify-content: left;
      text-align: center;
      border-radius: 1rem;
         
-    }
     
+    }
+    @media (min-width: 1200px) {
+        body * {
+            max-width: 100%;
+            margin: 0 auto;
+        }
+    }
     .columninformation {
 
         border-bottom: 1px solid black;
@@ -228,6 +241,7 @@ justify-content: left;
         font-style: normal;
     
     }
+   
     
     section > div .item{
     
