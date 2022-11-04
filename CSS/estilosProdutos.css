@@ -31,7 +31,7 @@ body{
 main{
     display: flex;
     width: 100%;
-    margin: 0;
+
     
 }
 .menu_categoria{
@@ -45,6 +45,9 @@ main{
 aside{
     display: flex;
     width: 100%;
+    display: inline;
+    justify-items: center;
+    max-width: 15rem;
     padding-left: 2rem;
     padding-right: 6rem;
     padding-top: 2rem;
