@@ -1,212 +1,31 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Ropa+Sans&display=swap');
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-}
-
-* body {
-    height: auto;
-}
-
-/* SECTION 1 - BANNER + 3 CATEGORAS  */
-
-#banner {
-    padding-top: 65px;
-    height: 100%;
-    width: 100%;
-    display: block;
-    align-items: flex-start;
-    justify-content: center;
-}
-
-
-.big3 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: .5rem;
-}
-
-.big3-icons {
-    align-items: center;
-    display: flex;
-    position: relative;
-    width: auto;
-}
-
-.big3 * a {
-    font-weight: bold;
-    font-size: clamp(.6rem, 2.5vw, 1.2rem);
-    flex-wrap: nowrap;
-    position: absolute;
-    width: 100%;
-    z-index: 2;
-    text-decoration: none;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-
-.big3 .big3-icons * img {
-    width: 33vw;
-    align-items: center;
-    display: flex;
-    position: relative;
-    z-index: 1;
-    filter: brightness(70%);
-
-}
-
-.big3-icons:hover {
-    width: 33vw;
-    filter: brightness(150%);
-    transform: scale(.95);
-    transition-property: all;
-    transition-duration: 0.1s;
-}
-
-
-/* SECTION 1 - DESTAQUES  */
-
-.destaque {
-    flex-direction: column;
-    width: 100%;
-    padding: 3vw 5vw;
-    font-size: .8rem;
-    color: white;
-    background-color: #386C5F;
-}
-
-.grid {
-    padding: 1rem 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#grid-1 {
-    height: 80vw;
-    align-items: center;
-    filter: drop-shadow(.5rem .5rem 1rem black);
-}
-
-
-#grid-2,
-#grid-3,
-#grid-4 {
-    justify-content: flex-start;
-    max-width: 100%;
-    padding: .5rem;
-    display: none;
-    width: auto;
-}
-
-
-/*  CARROSEIS  */
-
-.continue-vendo {
-    display: flex;
-    flex-direction: column;
-    padding: 4vw 5vw;
-    position: relative;
-    width: 100%;
-
-}
-
-
-.gallery {
-    display: flex;
-    flex-flow: row nowrap;
-    gap: 2vw;
-    list-style: none;
-}
-
-.gallery * div {
-    padding-top: 5%;
-    display: flex;
-    flex-direction: column;
-    justify-items: center;
-    min-width: 3rem;
-    max-width: 10rem;
-    text-align: center;
-}
-
-
-.item {
-    max-height: 15rem;
-    height: 50vw;
-    border-radius: 5%;
-    align-items: center;
-}
-
-/* BOTOES - ARROW LEFT E RIGHT */
-
-.arrow-left {
-    top: 0;
-    bottom: 0;
-    left: 2vw;
-    right: auto;
-    margin: auto;
-    position: absolute;
-    width: 9vw;
-    height: 9vw;
-    max-width: 50px;
-    max-height: 50px;
-    background-color: #4EC16E;
-    border-radius: 20%;
-    color: white;
-    opacity: .5;
-    cursor: pointer;
-}
-
-.arrow-right {
-    top: 0;
-    bottom: 0;
-    left: auto;
-    right: 2vw;
-    margin: auto;
-    position: absolute;
-    width: 9vw;
-    height: 9vw;
-    max-width: 50px;
-    max-height: 50px;
-    background-color: #4EC16E;
-    border-radius: 20%;
-    color: white;
-    opacity: .5;
-    cursor: pointer;
-}
-
-/* ---------------------------------------------------------------------
-    ESTILO PRODUTOS --- 
---------------------------------------------------------------------- */
-
-
 ul li{
     list-style: none;
 }
 
-
-
-main{
-    display: flex; 
-
-    width: 100%;
-
+header.header_produtos{
+    position: sticky ;
+    top: 0;
     
+
 }
+.navegacao{
+    overflow-y: hidden;
+}
+
+
+main.produtos{
+    display: flex;
+    flex-direction: row;
+    align-items:stretch;
+    max-width: 100%;
+}
+
 .menu_categoria{
     display: inline;
-    width: 100%;
+    text-align: center;
+    
     max-width: 15rem;
-
-    
-    
+    min-width: 5rem;
 }
 
 
@@ -246,9 +65,10 @@ aside{
 
 .categoria{
     display: flex;
-    width: 100%;
+    max-width: 100%;
     min-width: 1rem;
     margin-bottom: 1rem;
+    font-size: 1.3rem;
     
 
 }
@@ -259,22 +79,23 @@ aside{
     gap:2rem;
 }
 
-.gallery{
+.galeria{
     display: flex;
-    width: 100%;
+    max-width: 100%;
     flex-wrap: wrap;
     justify-content: center;
     
 
 }
-section .gallery{
+section .galeria{
     display: flex;
+    max-width: 100%;
     justify-items: center;
     text-align: center;
     
 
 }
-.gallery > div {
+.galeria > div {
     display: flex;
     flex-direction: column;
     border: 1px solid #fff;
@@ -287,19 +108,22 @@ section .gallery{
     border-radius: 1rem;
    
 }
-.gallery > .catalogo_produtos{
+.galeria > .catalogo_produtos{
     background-color: #ffffff;
     box-shadow: 0 0 5px black;
+    margin: 0.8rem;
+    
     
     
 }
-.gallery > div> img{
+.galeria > div> img{
     display: flex;
-    width: 100%; 
+    width: 100%;
+     
     border-radius: 0.5rem;  
     object-fit: cover; 
 }
-.gallery{
+.galeria{
     margin-top: 2rem;
     
     gap: 4rem ;
@@ -313,25 +137,27 @@ section .gallery{
     padding: 8px; 
     box-shadow: 0 0 5px black
 
-
-   
-
 }
 .filtro{
     display: flex;
     margin: 0;
     justify-content: space-between;
-    padding: 2rem;   
+    padding: 2rem; 
+    width: 100%;  
     background-color: #386C5F;
+    font-size: 0.7rem;
+    
   
 }
 .filtro .resultado{
     margin-left: 1rem;
     color: #ffffff;
+    
 }
 .filtro #sort-by{
     margin-right: 1rem;
     border-radius: 0.5rem;
+    font-size: 0.7rem;
 }
 
 ul.style_litst {
@@ -342,38 +168,19 @@ ul.style_litst {
 }
 a:link{
     text-decoration:none;
-    color: inherit
+    color: inherit;
+    font-size: 0.9rem;
 }
 
-/* -----------------------------------------------------------------------------------------------------------
-button
------------------------------------------------------------------------------------------------------------
- */
+@media (min-width: 1200px) {
+    
+    .carrousel ul,
+    .carrousel,
+    .carrousel ul *{
+        max-width:none !important;
+        width: auto !important;
+    
+    }
+ 
 
-
-
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Ropa+Sans&display=swap');
-
-
-.comprar {
-    width: 8rem;
-    height: 2rem;
-    background-color: #4EC16E;
-    border-radius: 1rem;
-    cursor: pointer;
-    z-index: 2;
-    box-shadow: .25rem .25rem 1rem black;
 }
-
-.comprar a {
-    color: white;
-    font-weight: bold;
-}
-
-.comprar:hover {
-    transform: scale(1.1);
-    transition-property: all;
-    transition-duration: 0.2s;
-}
-

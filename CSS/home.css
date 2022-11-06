@@ -69,7 +69,7 @@ main {
 }
 
 .big3-icons:hover {
-    width: 33vw;
+    width: 38vw;
     filter: brightness(150%);
     transform: scale(.95);
     transition-property: all;
@@ -119,7 +119,7 @@ main {
 .lançamento {
     padding: 4vw 5vw;
     position: relative;
-    width: 100vw;
+    width: 100%;
 
 }
 
