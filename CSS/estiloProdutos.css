@@ -1,0 +1,659 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Ropa+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+* body {
+    height: auto;
+}
+
+/* SECTION 1 - BANNER + 3 CATEGORAS  */
+
+#banner {
+    padding-top: 65px;
+    height: 100%;
+    width: 100%;
+    display: block;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+
+.big3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: .5rem;
+}
+
+.big3-icons {
+    align-items: center;
+    display: flex;
+    position: relative;
+    width: auto;
+}
+
+.big3 * a {
+    font-weight: bold;
+    font-size: clamp(.6rem, 2.5vw, 1.2rem);
+    flex-wrap: nowrap;
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.big3 .big3-icons * img {
+    width: 33vw;
+    align-items: center;
+    display: flex;
+    position: relative;
+    z-index: 1;
+    filter: brightness(70%);
+
+}
+
+.big3-icons:hover {
+    width: 33vw;
+    filter: brightness(150%);
+    transform: scale(.95);
+    transition-property: all;
+    transition-duration: 0.1s;
+}
+
+
+/* SECTION 1 - DESTAQUES  */
+
+.destaque {
+    flex-direction: column;
+    width: 100%;
+    padding: 3vw 5vw;
+    font-size: .8rem;
+    color: white;
+    background-color: #386C5F;
+}
+
+.grid {
+    padding: 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#grid-1 {
+    height: 80vw;
+    align-items: center;
+    filter: drop-shadow(.5rem .5rem 1rem black);
+}
+
+
+#grid-2,
+#grid-3,
+#grid-4 {
+    justify-content: flex-start;
+    max-width: 100%;
+    padding: .5rem;
+    display: none;
+    width: auto;
+}
+
+
+/*  CARROSEIS  */
+
+.continue-vendo {
+    display: flex;
+    flex-direction: column;
+    padding: 4vw 5vw;
+    position: relative;
+    width: 100%;
+
+}
+
+
+.gallery {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 2vw;
+    list-style: none;
+}
+
+.gallery * div {
+    padding-top: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    min-width: 3rem;
+    max-width: 10rem;
+    text-align: center;
+}
+
+
+.item {
+    max-height: 15rem;
+    height: 50vw;
+    border-radius: 5%;
+    align-items: center;
+}
+
+/* BOTOES - ARROW LEFT E RIGHT */
+
+.arrow-left {
+    top: 0;
+    bottom: 0;
+    left: 2vw;
+    right: auto;
+    margin: auto;
+    position: absolute;
+    width: 9vw;
+    height: 9vw;
+    max-width: 50px;
+    max-height: 50px;
+    background-color: #4EC16E;
+    border-radius: 20%;
+    color: white;
+    opacity: .5;
+    cursor: pointer;
+}
+
+.arrow-right {
+    top: 0;
+    bottom: 0;
+    left: auto;
+    right: 2vw;
+    margin: auto;
+    position: absolute;
+    width: 9vw;
+    height: 9vw;
+    max-width: 50px;
+    max-height: 50px;
+    background-color: #4EC16E;
+    border-radius: 20%;
+    color: white;
+    opacity: .5;
+    cursor: pointer;
+}
+
+/* ---------------------------------------------------------------------
+    ESTILO PRODUTOS --- 
+--------------------------------------------------------------------- */
+
+
+ul li{
+    list-style: none;
+}
+
+
+
+main{
+    display: flex; 
+
+    width: 100%;
+
+    
+}
+.menu_categoria{
+    display: inline;
+    width: 100%;
+    max-width: 15rem;
+
+    
+    
+}
+
+
+aside{
+    width: 100% ;
+    display: inline;
+    justify-items: center;
+    max-width: 13rem;
+    padding-left: 2rem;
+    padding-right: 6rem;
+    padding-top: 2rem;
+    background-color: #386C5F;
+    color: #fff;
+    
+    
+}
+.menu-main ul {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 1rem;
+    
+    float: inline-end;
+    
+    
+}
+
+.menu-main ul .link_menu {
+    display: flex;
+    width: 100%;
+    text-decoration: none;
+    color: #fff;
+    
+    
+}
+
+
+.categoria{
+    display: flex;
+    width: 100%;
+    min-width: 1rem;
+    margin-bottom: 1rem;
+    
+
+}
+.book_compra{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap:2rem;
+}
+
+.gallery{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+
+}
+section .gallery{
+    display: flex;
+    justify-items: center;
+    text-align: center;
+    
+
+}
+.gallery > div {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #fff;
+    width: 12rem;
+    justify-items: center;
+    align-items: center;
+    background-size: auto;
+    padding: 1rem;
+    gap: 1rem;
+    border-radius: 1rem;
+   
+}
+.gallery > .catalogo_produtos{
+    background-color: #ffffff;
+    box-shadow: 0 0 5px black;
+    
+    
+}
+.gallery > div> img{
+    display: flex;
+    width: 100%; 
+    border-radius: 0.5rem;  
+    object-fit: cover; 
+}
+.gallery{
+    margin-top: 2rem;
+    
+    gap: 4rem ;
+}
+
+.button{
+    background: #69E0AE; 
+    width: 120px;
+    border-radius: 16px;
+    border: #69E0AE;
+    padding: 8px; 
+    box-shadow: 0 0 5px black
+
+
+   
+
+}
+.filtro{
+    display: flex;
+    margin: 0;
+    justify-content: space-between;
+    padding: 2rem;   
+    background-color: #386C5F;
+  
+}
+.filtro .resultado{
+    margin-left: 1rem;
+    color: #ffffff;
+}
+.filtro #sort-by{
+    margin-right: 1rem;
+    border-radius: 0.5rem;
+}
+
+ul.style_litst {
+    display: flex;
+    margin-bottom: 2rem;
+    text-decoration:none;
+    
+}
+a:link{
+    text-decoration:none;
+    color: inherit
+}
+
+/* -----------------------------------------------------------------------------------------------------------
+button
+-----------------------------------------------------------------------------------------------------------
+ */
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Ropa+Sans&display=swap');
+
+
+.comprar {
+    width: 8rem;
+    height: 2rem;
+    background-color: #4EC16E;
+    border-radius: 1rem;
+    cursor: pointer;
+    z-index: 2;
+    box-shadow: .25rem .25rem 1rem black;
+}
+
+.comprar a {
+    color: white;
+    font-weight: bold;
+}
+
+.comprar:hover {
+    transform: scale(1.1);
+    transition-property: all;
+    transition-duration: 0.2s;
+}
+
+
+
+
+/* 
+--------------------------------------------------------------------------------------------------------------------------
+Estilos
+-------------------------------------------------------------------------------------------------------------------------- */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Ropa+Sans&display=swap');
+
+footer *,
+header * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+* a {
+    text-decoration: none;
+    color: black;
+}
+
+/* HEADER */
+
+
+header {
+    position: fixed;
+    max-width: 100%;
+    width: 100%;
+    z-index: 3;
+}
+
+
+.container-header {
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+    justify-content: space-between;
+    height: 40px;
+    max-height: 5rem;
+    width: 100%;
+    background-color: #9CD9C2;
+}
+
+.container-header nav ul {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons div:hover {
+    transform: scale(1.1);
+    transition-property: all;
+    transition-duration: 0.2s;
+
+}
+
+.icons div {
+    padding: 10%;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 7vw;
+    max-height: 2.5rem;
+    flex-wrap: nowrap;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.conta {
+    display: none;
+}
+
+#lupa {
+    display: flex;
+}
+
+svg {
+    height: 6vw;
+    max-height: 2.5rem;
+    width: auto;
+}
+
+#search {
+    display: none;
+}
+
+
+.navegacao {
+    letter-spacing: .05rem;
+    align-items: center;
+    padding: 0 5%;
+    display: inline-block;
+    height: 25px;
+    width: 100%;
+    background-color: #9CD9C2;
+    word-wrap: break-word;
+    overflow-x: auto;
+    box-shadow: 0 .01rem .4rem .01rem #949494;
+}
+
+.navegacao nav ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+.lista li a {
+    align-items: center;
+    text-decoration: none;
+    padding: .8rem 1rem;
+    color: black;
+    font-size: clamp(.6rem, 100%, .8rem);
+    white-space: nowrap;
+}
+
+.lista li a:hover {
+    background-color: #4EC16E;
+    color: white;
+}
+
+.conta {
+    display: none;
+}
+
+/* FOOTER */
+
+#logo2 {
+    display: none;
+}
+
+.footer {
+    display: flex;
+    background-color: #9CD9C2;
+    font-size: .9rem;
+    flex-direction: column;
+    border-radius: 2vw 2vw 0 0;
+}
+
+.container-footer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.container-footer div {
+    padding: 1.5rem 3vw;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+
+#cards {
+    height: 10vw;
+    max-height: 3rem;
+    background-color: transparent;
+}
+
+#redes-sociais * a {
+    padding: 0 5px;
+}
+
+
+.autores {
+    box-shadow: 0 .01rem .4rem .01rem #949494;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.autores  ul {
+    padding: 1rem;
+    gap: 1rem;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+@media (min-width: 768px) {
+
+    header,
+    footer {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    .container-header {
+        height: 50px;
+    }
+
+
+    #search {
+        display: flex;
+        font-size: .8rem;
+        font-style: italic;
+        padding: 0 1rem;
+        height: 2rem;
+        width: 50vw;
+        max-height: 2rem;
+        max-width: 100%;
+        border-radius: 2rem;
+        border: none;
+
+    }
+
+    #lupa {
+        display: none;
+    }
+
+
+
+    .lista {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #logo2 {
+        display: block;
+        align-items: center;
+        height: 5rem;
+    }
+
+    .autores ul {
+        height: auto;
+        display: flex;
+        flex-direction: row;
+             }
+
+
+}
+
+
+
+@media (min-width: 1200px) {
+
+    header,
+    footer {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    svg {
+        max-height: 6vh;
+        width: auto;
+    }
+
+
+
+
+}
