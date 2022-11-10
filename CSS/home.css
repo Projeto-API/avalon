@@ -22,12 +22,12 @@
     justify-content: center;
 }
 
-main {
+/* main {
     display: flex;
     max-width: 100%;
     align-items: center;
     flex-direction: column;
-}
+} */
 
 .big3 {
     display: flex;
